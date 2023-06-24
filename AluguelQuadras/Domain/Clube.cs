@@ -1,12 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Runtime.CompilerServices;
 
 namespace AluguelQuadras.Domain
 {
-    internal class Clube
+    public class Clube
     {
+        public string? Cnpj { get; set; }
+        public TimeSpan Abertura { get; set; }
+        public TimeSpan Fechamento { get; set; }
+        public string? Telefone { get; set; }
+        public string? Endereco { get; set; }
+        public Proprietario? Proprietario { get; set; }
     }
 }

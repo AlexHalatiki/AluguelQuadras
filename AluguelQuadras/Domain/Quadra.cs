@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace AluguelQuadras.Domain
+﻿namespace AluguelQuadras.Domain
 {
-    internal class Quadra
+    public class Quadra
     {
+        public int Id { get; set; }
+        public TimeSpan Duracao { get; set; }
+        public List<Reserva>? Reservas { get; set; }
+        public TipoQuadra Tipo { get; set; }
+
     }
 }

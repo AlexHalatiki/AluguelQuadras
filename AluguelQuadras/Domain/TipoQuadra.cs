@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace AluguelQuadras.Domain
+﻿namespace AluguelQuadras.Domain
 {
-    internal class TipoQuadra
+    public enum TipoQuadra
     {
+        Society,
+        Futsal,
+        Futebol,
+        Basquete,
+        Volei,
+        Tenis
     }
 }
